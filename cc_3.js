@@ -43,3 +43,18 @@ let feedback = [ //declared an array with 3 objects, each with 3 properties
 feedback.push({customerName: "Mahatma Gandhi", feedbackText: "OMG this is the best!",rating: 9}); //added a new object to the array
 
 console.log(feedback);
+
+//Task 5: Inventory Management System Scenario. 
+
+let inventory = {      //declared an object with 3 properties
+itemName: "PowerAid",
+stockCount: 350,
+price: 2.99,
+
+calculateTotalValue: function () {    //added a method (function within the object) that returns total value
+    return this.stockCount * this.price;
+
+}
+};
+console.log("Total value:",inventory.calculateTotalValue()); //logged the total value
+console.log(inventory); //logged the inventory details
