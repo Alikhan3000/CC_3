@@ -17,3 +17,18 @@ let quantities_total = quantities.reduce((sum, quantitie) => sum + quantitie, 0)
 console.log(quantities);
 console.log(quantities_total);
 
+//Task 3: Employee Performance Tracking Scenario.
+
+let employee = {        //declared an object with 4 properties
+name: "Ali",
+role: "IT_support",
+performanceScore: 9,
+isActive: true
+
+};
+
+employee.performanceScore = 10; //updated performanceScore property to 10
+employee.promotionEligible = true; //added a new property with a boolean values to the object "employee"
+
+console.log(employee);
+
