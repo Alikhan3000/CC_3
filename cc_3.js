@@ -32,3 +32,14 @@ employee.promotionEligible = true; //added a new property with a boolean values 
 
 console.log(employee);
 
+//Task 4: Customer Feedback Records Scenario.
+
+let feedback = [ //declared an array with 3 objects, each with 3 properties
+{customerName: "Brenda Jackson-Lee", feedbackText: "I liked the quality of the service provided", rating: 8}, 
+{customerName: "Johny Fratboy", feedbackText: "Amazing!", rating: 10},
+{customerName: "Kurt Hetfield", feedbackText: "Worst experience in my life!", rating: 2},
+];
+
+feedback.push({customerName: "Mahatma Gandhi", feedbackText: "OMG this is the best!",rating: 9}); //added a new object to the array
+
+console.log(feedback);
